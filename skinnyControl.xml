@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+	<control>
+		<recordID>blank</recordID>
+		<maintenanceStatus>new</maintenanceStatus>
+		<maintenanceAgency>
+			<agencyCode>OCLC-YAM</agencyCode>
+			<agencyName>American Museum of Natural History</agencyName>
+		</maintenanceAgency>
+		<languageDeclaration>
+			<language langCode="eng">English</language>
+			<script scriptCode="Latn">Latin</script>
+		</languageDeclaration>
+		<conventionDeclaration>
+			<abbreviation>dacs</abbreviation>
+			<citation>Describing Archives: A Content Standard</citation>
+		</conventionDeclaration>
+		<conventionDeclaration>
+			<abbreviation>lcnaf</abbreviation>
+			<citation>Library of Congress Name Authority File</citation>
+		</conventionDeclaration>
+		<conventionDeclaration>
+			<abbreviation>viaf</abbreviation>
+			<citation>Virtual International Authority File</citation>
+		</conventionDeclaration>
+		<maintenanceHistory>
+			<maintenanceEvent>
+				<eventType>created</eventType>
+				<eventDateTime></eventDateTime>
+				<agentType>machine</agentType>
+				<agent>skinny.py</agent>
+				<eventDescription>Created from the AMNH master excel sheet of person records with a script written 	by Nick Krabbenhoeft</eventDescription>
+			</maintenanceEvent>
+		</maintenanceHistory>
+	</control>
+</eac-cpf>
