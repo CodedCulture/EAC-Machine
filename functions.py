@@ -117,7 +117,7 @@ def createPDescription(values, type):
 	biogHist = description.find('.//biogHist')
 	relations = cpfDescription.find('./relations')
 	if values[5].value != '':
-		biogHist.append(createElement('abstract', values[5].value))
+		biogHist.append(createElement('p', values[5].value))
 	if values[8].value == True:
 		biogHist.append(createElement('p', 'This person was employed by the American Museum of Natural History'))
 		employee = createAMNHRelation(values[11].value)
