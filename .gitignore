@@ -54,5 +54,6 @@ docs/_build/
 target/
 
 # project stuff
+data/
 new/
 test.py
