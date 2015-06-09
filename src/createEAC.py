@@ -60,7 +60,7 @@ def createSkinnyXML(values, type):
 
 
 def createBaseXML(recordID):
-	base = ET.parse('skinnyControl.xml', parser)
+	base = ET.parse('templates/skinnyControl.xml', parser)
 
 	#add recordID. identify element via xpath?
 	base.find('.//' + eacNS + 'recordID').text = recordID
@@ -93,7 +93,7 @@ def createMaintenanceEvent(agent, event):
 
 
 def createCDescription(values, type):
-	cpfDescription = ET.parse('skinnyDescription.xml', parser)
+	cpfDescription = ET.parse('templates/skinnyDescription.xml', parser)
 
 	#identity
 	cpfDescription.find('./identity/entityType').text = type
