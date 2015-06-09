@@ -29,7 +29,7 @@
 				<eventDateTime></eventDateTime>
 				<agentType>machine</agentType>
 				<agent>EAC-machine</agent>
-				<eventDescription>Created from the AMNH master excel sheet of person records with a script written by Nick Krabbenhoeft</eventDescription>
+				<eventDescription>Created from an Excel sheet of AMNH records with a Python script written</eventDescription>
 			</maintenanceEvent>
 		</maintenanceHistory>
 	</control>
